@@ -31,8 +31,7 @@ window.onload = function() {
   ////////////////////////////////////
   let select = array => {
     let selectarray = Math.floor(Math.random() * array.length);
-    let sarray = array[selectarray];
-    return sarray;
+    return array[selectarray];
   };
 
   console.log(
@@ -40,5 +39,5 @@ window.onload = function() {
   );
 };
 
-arrArr = [[who], [what]];
-console.log(arrArr);
+//arrArr = [[who], [what]];
+//console.log(arrArr);
